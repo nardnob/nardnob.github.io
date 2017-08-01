@@ -1,0 +1,34 @@
+.threeJs {
+    height:400px;
+    margin:0px;
+}
+
+.addCube {
+    width:200px;
+    border:1px solid black;
+    border-radius:5px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:10px;
+    background-color:gainsboro;
+}
+
+.input-label {
+    margin-top:6px;
+}
+
+.space-above {
+    margin-top:10px;
+}
+
+.space-below {
+    margin-bottom:10px;
+}
+
+.space-left {
+    margin-left:10px;
+}
+
+.space-right {
+    margin-right:10px;
+}
