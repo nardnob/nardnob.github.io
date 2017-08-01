@@ -17,20 +17,20 @@ html, body {
     min-height:100%;
     height:auto !important;
     height:100%;
-    margin: 0 auto -20px;
+    margin: 0 auto -60px;
 }
 
 .push-footer {
 	color:white;
 
-    height:20px;
+    height:60px;
 }
 
 .footer-content {
 	background-color:black;
 	color:white;
 
-    height:20px;
+    height:60px;
 }
 
 #above-header-left-logo {
@@ -79,6 +79,14 @@ html, body {
 	background-color:red;
 	color:white;
 	height:30px;
+}
+
+.main-nav-bar-fixed {
+	position: fixed;
+	top: 0;
+	border-top: 0;
+	z-index: 100;
+	width: 100%;
 }
 
 .header-navigation-button {
