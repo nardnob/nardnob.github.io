@@ -1,0 +1,9 @@
+<div class="tile-puzzle-board no-select">
+	<div class="tile-puzzle-row no-select" data-ng-repeat="row in vm.puzzle">
+		<div class="no-select" data-ng-class="{'tile-puzzle-piece': vm.puzzle[$parent.$index][$index], 'tile-puzzle-blank': !vm.puzzle[$parent.$index][$index]}" data-ng-click="vm.clickedTile($parent.$index, $index)" data-ng-repeat="col in vm.puzzle[$index]">{{vm.puzzle[$parent.$index][$index]}}<span data-ng-if="!vm.puzzle[$parent.$index][$index]">&nbsp;</span></div>
+	</div>
+</div>
+<div class="tile-puzzle-buttons">
+	<a class="btn btn-primary" data-ng-if="vm.won" data-ng-click="vm.playAgain()">Play again</a>
+	<a class="btn btn-primary" data-ng-if="!vm.won" data-ng-click="vm.shuffle()">Shuffle</a>
+</div>

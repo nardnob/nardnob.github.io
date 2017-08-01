@@ -1,0 +1,67 @@
+html, body {
+    background-color:darkgray;
+    width:100%;
+}
+
+.no-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* IE/Edge */
+    user-select: none;           /* non-prefixed version, currently not supported by any browser */
+}
+
+.container {
+    margin:0px;
+    padding:0px;
+}
+
+.threeJs {
+    height:400px;
+    margin:0px;
+}
+
+.addCube {
+    width:200px;
+    border:1px solid black;
+    border-radius:5px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:10px;
+    background-color:gainsboro;
+}
+
+.fullWidth {
+    width:100%;
+}
+
+.inputLabel {
+    margin-top:6px;
+}
+
+.spaceAbove {
+    margin-top:10px;
+}
+
+.spaceBelow {
+    margin-bottom:10px;
+}
+
+.spaceLeft {
+    margin-left:10px;
+}
+
+.spaceRight {
+    margin-right:10px;
+}
+
+.separator {
+    height:1px;
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:black;
+    margin-top:50px;
+    margin-bottom:50px;
+}

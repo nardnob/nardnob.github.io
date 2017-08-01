@@ -1,0 +1,13 @@
+<div class="hiscores-body">
+	<div class="hiscores-name-entry">
+		<div class="input-group">
+			<span class="input-group-addon" id="basic-addon">RS Display name</span>
+			<input type="text" class="form-control" placeholder="Display Name" aria-describedby="basic-addon">
+		</div>
+		<a class="btn btn-primary retrieve-hiscores" data-ng-click="vm.getHiscores()">Retrieve Hiscores</a>
+		<div class="clearfix"></div>
+	</div>
+	<div>
+		<span data-ng-model="vm.hiscores"></span>
+	</div>
+</div>

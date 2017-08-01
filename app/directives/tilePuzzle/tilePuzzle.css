@@ -1,0 +1,47 @@
+.tile-puzzle-board {
+	width:516px;
+	font-size:0;
+	border:1px solid black;
+	padding:2px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.tile-puzzle-row {
+}
+
+.tile-puzzle-piece {
+	display:inline-block;
+	width:100px;
+	height:100px;
+	font-size:30px;
+	margin:1px;
+	border:1px solid white;
+	background-color:black;
+	color:white;
+	cursor:pointer;
+	text-align:center;
+	padding-top:25px;
+}
+
+.tile-puzzle-blank {
+	display:inline-block;
+	width:100px;
+	height:100px;
+	font-size:30px;
+	margin:1px;
+	border:1px solid lightgray;
+	background-color:none;
+	color:white;
+	cursor:pointer;
+	text-align:center;
+	padding-top:25px;
+}
+
+.tile-puzzle-buttons {
+	width:516px;
+	padding:0;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+}

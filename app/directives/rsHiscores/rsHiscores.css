@@ -1,0 +1,16 @@
+.hiscores-body {
+	max-width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+	
+.hiscores-body .hiscores-name-entry {
+	max-width:500px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.hiscores-body .hiscores-name-entry .retrieve-hiscores {
+	margin-top:10px;
+	float:right;
+}
