@@ -40,13 +40,20 @@
 
 	<!-- page styles -->
     <link href="/app/css/app.css" rel="stylesheet" type="text/css">
-    <link href="/app/directives/tilePuzzle/tilePuzzle.css" rel="stylesheet" type="text/css">
 
 	<!-- page modules, controllers -->
     <script type="text/javascript" src="/app/app.module.js"></script>
     <script type="text/javascript" src="/app/controllers/app.controller.js"></script>
 
-	<!-- page directives -->
+	<!-- directives css -->
+    <link href="/app/directives/spinnerContainer/spinnerContainer.css" rel="stylesheet" type="text/css">
+    <link href="/app/directives/threeJs/threeJs.css" rel="stylesheet" type="text/css">
+    <link href="/app/directives/tilePuzzle/tilePuzzle.css" rel="stylesheet" type="text/css">
+
+    <!-- directives js -->
+    <script type="text/javascript" src="/app/directives/recursiveSpinner/recursiveSpinner.directive.js"></script>
+    <script type="text/javascript" src="/app/directives/spinnerContainer/spinnerContainer.directive.js"></script>
+    <script type="text/javascript" src="/app/directives/threeJs/threeJs.directive.js"></script>
     <script type="text/javascript" src="/app/directives/tilePuzzle/tilePuzzle.directive.js"></script>
 
 	<script>
@@ -146,6 +153,14 @@
 			<div class="body-block-separator"></div>
 			<div class="body-block">
 				<bkd-tile-puzzle></bkd-tile-puzzle>
+			</div><!-- bodyBlock -->
+			<div class="body-block-separator"></div>
+			<div class="body-block">
+				<bkd-spinner-container></bkd-spinner-container>
+			</div><!-- bodyBlock -->
+			<div class="body-block-separator"></div>
+			<div class="body-block">
+                <div class="threeJs" control="vm.threeJsControl" bkd-three-js></div>
 			</div><!-- bodyBlock -->
 			<div class="body-block-separator"></div>
 			<div class="body-block">
