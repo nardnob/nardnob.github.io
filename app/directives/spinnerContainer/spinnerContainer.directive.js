@@ -3,7 +3,7 @@
 
     angular
         .module('app')
-        .directive('abtSpinnerContainer', spinnerContainerDirective);
+        .directive('bkdSpinnerContainer', spinnerContainerDirective);
 
     function spinnerContainerDirective() {
         return {

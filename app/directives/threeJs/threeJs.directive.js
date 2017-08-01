@@ -3,7 +3,7 @@
 
     angular
         .module('app')
-        .directive('abtThreeJs', threeJsDirective);
+        .directive('bkdThreeJs', threeJsDirective);
 
     function threeJsDirective() {
         return {
@@ -159,10 +159,10 @@
         }
 
         function addCube(width, height, depth) {
-            $log.log("abtThreeJs.addCube() - width:" + width + ", height:" + height + ", depth:" + depth);
+            $log.log("bkdThreeJs.addCube() - width:" + width + ", height:" + height + ", depth:" + depth);
 
             if(!width || !height || !depth) {
-                $log.log("abtThreeJs.addCube() - invalid width, height, or depth.");
+                $log.log("bkdThreeJs.addCube() - invalid width, height, or depth.");
                 return;
             }
 

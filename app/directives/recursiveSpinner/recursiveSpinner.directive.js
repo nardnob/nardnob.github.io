@@ -3,7 +3,7 @@
 
     angular
         .module('app')
-        .directive('abtRecursiveSpinner', recursiveSpinnerDirective);
+        .directive('bkdRecursiveSpinner', recursiveSpinnerDirective);
 
     function recursiveSpinnerDirective($compile, $timeout) {
         return {
@@ -39,14 +39,14 @@
                 "   left: " + (ctrl.radius * 0.74 / (5 * 2)).toString() + "px; " +
                 "   top: " + (ctrl.radius * 0.74 / (5 * 2)).toString() + "px; " +
                 "'>" +
-                "   <abt-recursive-spinner " +
+                "   <bkd-recursive-spinner " +
                 "      depth='" + (ctrl.depth - 1).toString() + "' " +
                 "      radius='" + (ctrl.radius * 4 / 5).toString() + "' " +
                 "      fore-color=\"'" + ctrl.backColor + "'\" " +
                 "      back-color=\"'" + ctrl.foreColor + "'\" " +
                 "      control=\"ctrl.spinnerControl\" " + 
                 "   >" +
-                "   </abt-recursive-spinner>" +
+                "   </bkd-recursive-spinner>" +
                 "</div>";
     }
 

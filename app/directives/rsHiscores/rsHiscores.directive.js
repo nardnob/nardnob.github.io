@@ -3,7 +3,7 @@
 
     angular
         .module('app')
-        .directive('abtRsHiscores', rsHiscoresDirective);
+        .directive('bkdRsHiscores', rsHiscoresDirective);
 
     function rsHiscoresDirective() {
         return {

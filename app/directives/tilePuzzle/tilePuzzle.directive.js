@@ -3,7 +3,7 @@
 
     angular
         .module('app')
-        .directive('abtTilePuzzle', tilePuzzleDirective);
+        .directive('bkdTilePuzzle', tilePuzzleDirective);
 
     function tilePuzzleDirective() {
         return {
