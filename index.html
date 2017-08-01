@@ -157,6 +157,34 @@
 			<div class="body-block-separator"></div>
 			<div class="body-block">
                 <div class="threeJs" control="vm.threeJsControl" bkd-three-js></div>
+                <div class="col-xs-12">
+                    <div class="addCube">
+                        <div class="row spaceBelow spaceAbove">
+                            <div class="col-xs-4 inputLabel">Width:</div>
+                            <div class="col-xs-8">
+                                <input type="number" class="form-control" ng-model="vm.addCubeParms.width">
+                            </div>
+                        </div>
+                        <div class="row spaceBelow">
+                            <div class="col-xs-4 inputLabel">Height:</div>
+                            <div class="col-xs-8">
+                                <input type="number" class="form-control" ng-model="vm.addCubeParms.height">
+                            </div>
+                        </div>
+                        <div class="row spaceBelow">
+                            <div class="col-xs-4 inputLabel">Depth:</div>
+                            <div class="col-xs-8">
+                                <input type="number" class="form-control" ng-model="vm.addCubeParms.depth">
+                            </div>
+                        </div>
+                        <div class="row spaceBelow">
+                            <div class="col-xs-12">
+                                <a class="btn btn-primary fullWidth"
+                                ng-click="vm.threeJsControl.addCube(vm.addCubeParms.width, vm.addCubeParms.height, vm.addCubeParms.depth)">Add Cube</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 			</div><!-- bodyBlock -->
 			<div class="body-block-separator"></div>
 			<div class="body-block">
