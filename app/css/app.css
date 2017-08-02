@@ -3,8 +3,7 @@
 }
 
 html, body {
-	background-color:gray;
-    height:100%;
+	background-color:#7E9E8D;
 }
 
 .header-content {
@@ -70,13 +69,13 @@ html, body {
 }
 
 #above-header-bar {
-	background-color:green;
-	color:green;
+	background-color:#3A674F;
 	height:100px;
+	color:black;
 }
 
 .header-navigation-bar {
-	background-color:red;
+	background-color:#47715B;
 	color:white;
 	height:30px;
 }
@@ -91,12 +90,13 @@ html, body {
 
 .header-navigation-button {
 	float:left;
-	background-color:blue;
+	background-color:#47715b;
+	border-right:1px solid #52866B;
 	color:white;
 	width:100px;
 	height:100%;
 	text-align:center;
-	margin-right:3px;
+	padding-right:3px;
 	cursor:pointer;
 
 	-webkit-touch-callout: none;
@@ -109,17 +109,18 @@ html, body {
 
 .header-navigation-button:hover {
 	background-color:white;
-	color:blue;
+	color:#47715B;
 }
 
 .header-navigation-button-with-arrow {
 	float:left;
-	background-color:blue;
+	background-color:#47715b;
+	border-right:1px solid #52866B;
 	color:white;
 	width:115px;
 	height:100%;
 	text-align:center;
-	margin-right:3px;
+	padding-right:3px;
 	cursor:default;
 
 	-webkit-touch-callout: none;
@@ -132,7 +133,7 @@ html, body {
 
 .header-navigation-button-with-arrow:hover {
 	background-color:white;
-	color:blue;
+	color:#47715B;
 }
 
 .button-text {
@@ -161,7 +162,7 @@ html, body {
 	height: 0;
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
-	border-top: 10px solid blue;
+	border-top: 10px solid #47715B;
 	float:right;
 	margin-top:4px;
 }
