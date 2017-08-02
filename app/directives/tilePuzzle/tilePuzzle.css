@@ -1,7 +1,7 @@
 .tile-puzzle-board {
 	width:516px;
 	font-size:0;
-	border:1px solid black;
+	border:1px solid #47715B;
 	padding:2px;
 	margin-left:auto;
 	margin-right:auto;
@@ -17,7 +17,7 @@
 	font-size:30px;
 	margin:1px;
 	border:1px solid white;
-	background-color:black;
+	background-color:#47715B;
 	color:white;
 	cursor:pointer;
 	text-align:center;
