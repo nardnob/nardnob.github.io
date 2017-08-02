@@ -19,9 +19,9 @@
 
 		function activate() {
 			$(window).scroll(function () {
-				if ($(window).scrollTop() > 70) {
+				if ($(window).scrollTop() > 100) {
 					$('#main-nav-bar').addClass('main-nav-bar-fixed');
-				} else if ($(window).scrollTop() < 71) {
+				} else if ($(window).scrollTop() < 101) {
 					$('#main-nav-bar').removeClass('main-nav-bar-fixed');
 				}
 			});

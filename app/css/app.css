@@ -10,7 +10,7 @@ html, body {
 .header-content {
 	background-color:black;
 	color:white;
-	height:100px;
+	height:130px;
 }
 
 .non-footer {
@@ -72,7 +72,7 @@ html, body {
 #above-header-bar {
 	background-color:green;
 	color:green;
-	height:70px;
+	height:100px;
 }
 
 .header-navigation-bar {
