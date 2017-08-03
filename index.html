@@ -107,6 +107,22 @@
 </head>
 <body ng-app="app" data-ng-controller="appController as vm">
 	<div class="non-footer">
+		<!--------------->
+		<!-- xs header -->
+		<!--------------->
+		<div class="xs-header-content hidden-sm hidden-md hidden-lg">
+			<div class="xs-header-left-logo no-select" onclick="redirectTo('/')">
+				nardnob
+			</div>
+			<div class="xs-header-right-hamburger">
+			</div>
+		</div>
+		<div class="xs-header-space hidden-sm hidden-md hidden-lg"></div>
+
+
+		<!----------------->
+		<!-- main header -->
+		<!----------------->
 		<div class="header-content hidden-xs">
 			<div id="above-header-bar">
                 <img id="Bojack" src="app/rsc/bojack_cut_100.png"/>
@@ -147,6 +163,10 @@
 				</div>
 			</div>
 		</div><!-- headerContent -->
+		
+		<!------------------>
+		<!-- main content -->
+		<!------------------>
 		<div class="main-content row">
 			<div class="col-xs-1 col-md-2 col-lg-3"></div>
 			<div class="col-xs-10 col-md-8 col-lg-6 centered">
@@ -215,6 +235,9 @@
 		</div><!-- main-content -->
 		<div class="push-footer"></div>
 	</div><!-- nonFooter -->
+	<!------------>
+	<!-- footer -->
+	<!------------>
 	<div class="footer-content">
 		<div>
 			Footer 12
