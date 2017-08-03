@@ -133,9 +133,13 @@ html, body {
 
 #inside-header-right-side {
     float:right;
+	height:100%;
     font-size:18px;
     font-family:monospace;
-    margin-right:8px;
+	font-weight:bold;
+	padding-top:2px;
+    padding-right:8px;
+	padding-left:8px;
     cursor:pointer;
     display:none;
 }
