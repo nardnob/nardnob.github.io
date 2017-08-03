@@ -73,6 +73,7 @@ html, body {
 	background-color:#47715B;
 	color:white;
 	height:30px;
+    border-top:1px solid white;
 }
 
 .main-nav-bar-fixed {
