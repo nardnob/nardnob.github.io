@@ -90,6 +90,17 @@ html, body {
 	font-family:monospace;
 	color:white;
 }
+.main-nav-bar-fixed #inside-header-right-side {
+    display:inline-block;
+}
+
+#inside-header-right-side {
+    float:right;
+    font-size:18px;
+    font-family:monospace;
+    margin-right:8px;
+    display:none;
+}
 
 #above-header-bar {
 	background-color:#3A674F;
