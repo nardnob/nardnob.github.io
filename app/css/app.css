@@ -53,6 +53,28 @@ html, body {
 	user-select: none;
 }
 
+#Bojack {
+    float:left;
+}
+
+#above-header-left-side {
+    float:left;
+    margin-top:73px;
+    margin-left:6px;
+    font-size:18px;
+    font-weight:bold;
+    color:white;
+}
+
+#above-header-left-side .site-author {
+    font-size:12px;
+    cursor:pointer;
+}
+
+#above-header-left-side .site-author:hover {
+    text-decoration:underline;
+}
+
 #above-header-right-side {
 	float:right;
 	height:100%;
@@ -135,11 +157,13 @@ html, body {
 .button-text {
 	padding-top:5px;
 	font-weight:bold;
+    height:100%;
 }
 
 .button-text-with-arrow {
 	padding-top:5px;
 	width:90px;
+    height:100%;
 	margin-left:auto;
 	margin-right:auto;
 	font-weight:bold;
@@ -168,8 +192,6 @@ html, body {
 .button-menu {
 	position:absolute;
 	width:165px;
-	background-color:orange;
-	margin-top:5px;
 	display:none;
 	border-left:1px solid #47715B;
 	border-right:1px solid #47715B;
@@ -222,7 +244,7 @@ html, body {
     margin-bottom:25px
 }
 
-.noselect {
+.no-select {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;

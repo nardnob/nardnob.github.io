@@ -10,7 +10,12 @@
     function AppController($log, $timeout, $window) {
         var vm = this;
 
+        vm.authorNameInverted = false;
+        vm.authorName = "Brandon Dixson"
+
         vm.threeJsControl = null;
+
+        vm.clickedAuthor = clickedAuthor;
 
 		activate();
 
@@ -26,5 +31,15 @@
 				}
 			});
 		}
+
+        function clickedAuthor() {
+            vm.authorNameInverted = !vm.authorNameInverted;
+
+            if(vm.authorNameInverted) {
+                vm.authorName = "Brandon Dixon"
+            } else {
+                vm.authorName = "Brandon Dixson"
+            }
+        }
     }
 })();
