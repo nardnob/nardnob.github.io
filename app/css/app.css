@@ -53,8 +53,14 @@ html, body {
 	user-select: none;
 }
 
+.ng-cloak {
+    display:none;
+}
+
 #Bojack {
     float:left;
+    width:100px;
+    height:100px;
 }
 
 #above-header-left-side {
