@@ -89,7 +89,9 @@ html, body {
 	font-size:30px;
 	font-family:monospace;
 	color:white;
+    cursor:pointer;
 }
+
 .main-nav-bar-fixed #inside-header-right-side {
     display:inline-block;
 }
@@ -99,6 +101,7 @@ html, body {
     font-size:18px;
     font-family:monospace;
     margin-right:8px;
+    cursor:pointer;
     display:none;
 }
 
