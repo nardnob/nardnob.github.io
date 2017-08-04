@@ -144,8 +144,8 @@ html, body {
     font-size:18px;
     font-family:monospace;
 	font-weight:bold;
-	padding-top:0.3em;
-    padding-right:8px;
+	padding-top:2px;
+    padding-right:0.3em;
 	padding-left:8px;
     cursor:pointer;
     display:none;
