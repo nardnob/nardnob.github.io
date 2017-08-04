@@ -51,20 +51,27 @@ html, body {
 
 .non-footer {
     min-height:100%;
-    margin: 0 auto -60px;
+    margin: 0 auto -80px;
 }
 
 .push-footer {
 	color:white;
 
-    height:60px;
+    height:80px;
 }
 
 .footer-content {
 	background-color:#3A674F;
 	color:white;
 
-    height:60px;
+    height:80px;
+}
+
+.footer-logo-container {
+	float:right;
+	width:60px;
+	margin-top:10px;
+	margin-right:10px;
 }
 
 #above-header-left-logo {
