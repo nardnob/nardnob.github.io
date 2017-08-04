@@ -38,7 +38,7 @@ html, body {
 
 .xs-header-right-hamburger {
 	float:right;
-	width:5em;
+	width:4em;
 	height:100%;
 	border-left:1px solid #52866B;
 }
@@ -137,7 +137,7 @@ html, body {
     font-size:18px;
     font-family:monospace;
 	font-weight:bold;
-	padding-top:2px;
+	padding-top:0.3em;
     padding-right:8px;
 	padding-left:8px;
     cursor:pointer;
