@@ -37,10 +37,22 @@ html, body {
 }
 
 .xs-header-right-hamburger {
+	color:white;
 	float:right;
+	font-size:26px;
 	width:50px;
 	height:100%;
 	border-left:1px solid #52866B;
+	text-align:center;
+	cursor:pointer;
+}
+
+.xs-header-right-hamburger:active {
+	background-color:#7E9E8D;
+}
+
+.xs-header-right-hamburger .glyphicon-menu-hamburger {
+	margin-top:9px;	
 }
 
 .header-content {
