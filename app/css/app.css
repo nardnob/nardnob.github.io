@@ -38,7 +38,7 @@ html, body {
 
 .xs-header-right-hamburger {
 	float:right;
-	width:4em;
+	width:50px;
 	height:100%;
 	border-left:1px solid #52866B;
 }
@@ -125,9 +125,8 @@ html, body {
 
 #above-header-right-side {
 	float:right;
-	height:100%;
-	padding-top:60px;
-	padding-right:0.3em;
+	margin-top:60px;
+	padding-right:8px;
 	font-size:30px;
 	font-family:monospace;
 	color:white;
@@ -145,7 +144,7 @@ html, body {
     font-family:monospace;
 	font-weight:bold;
 	padding-top:2px;
-    padding-right:0.3em;
+    padding-right:8px;
 	padding-left:8px;
     cursor:pointer;
     display:none;
